@@ -8,8 +8,10 @@
 
 import UIKit
 
-class CellCont_CollecView_SeeAll: UITableViewCell {
+class CellCont_CollecView_SeeAll: UITableViewCell{
 
+    @IBOutlet weak var CollectionViewTitle: UILabel!
+    @IBOutlet weak var CollectionView: UICollectionView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +22,4 @@ class CellCont_CollecView_SeeAll: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }
